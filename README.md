@@ -50,7 +50,7 @@ The star schema was created following the same structure of [Sparkify - Project 
 * sparkify.cfg - Configuration file with credentials, cluster and file parameters.
 * create_cluster.py - Script for Redshift cluster creation.
 * create_tables.py - Script for create all needed tables.
-* etl.py - Script for copy datasets from S3, import data to Redshift ant load final tables.
+* etl.py - Script for copy datasets from S3, import data to Redshift and load final tables.
 * delete_clusters.py - Script for Redshift cluster deletion.
 * get_arn.py - Script for get cluster ARN on AWS.
 
@@ -72,7 +72,7 @@ Now you need to run the `create_cluster.py` script as follow:
 $ python create_cluster.py
 ```
 
-While you cluster is created, you should follow the status on Redshift dashboard, in your AWS console. Wait until the status change from "Modifying" to "Available".
+While your cluster is created, you should follow the status on Redshift dashboard, in your AWS console. Wait until the status change from "Modifying" to "Available".
 
 <p align="center">
   <img src="Images/cluster-progress.png">
