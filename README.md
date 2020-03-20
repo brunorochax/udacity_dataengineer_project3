@@ -51,7 +51,7 @@ The star schema was created following the same structure of [Sparkify - Project 
 * create_cluster.py - Script for Redshift cluster creation.
 * create_tables.py - Script for create all needed tables.
 * etl.py - Script for copy datasets from S3, import data to Redshift and load final tables.
-* delete_clusters.py - Script for Redshift cluster deletion.
+* delete_cluster.py - Script for Redshift cluster deletion.
 * get_arn.py - Script for get cluster ARN on AWS.
 
 For default, we've designed a dc2.large with 4 nodes on configuration file, you can change this setting if you feel comfortable.
